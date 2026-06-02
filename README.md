@@ -1,9 +1,6 @@
-Here's the same README converted to HTML:
-
-<h1>Huffman Encoding Using Min Heap (C)</h1>
+<h1>Huffman Encoding Using Min Heap</h1>
 
 <h2>Overview</h2>
-
 <p>
 This project implements the Huffman Encoding algorithm in C to perform lossless text compression.
 </p>
@@ -167,8 +164,3 @@ Where:
 
 <hr>
 
-<h2>Author</h2>
-
-<p>
-Developed as a C implementation of the Huffman Encoding algorithm using Min Heap and Binary Tree data structures.
-</p>
