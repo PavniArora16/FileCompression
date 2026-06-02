@@ -191,8 +191,17 @@ int main() {
     total = strlen(encoded);
 
     //encoded string
-    fp = fopen("input.txt", "a");
-    fprintf(fp, "\nEncoded string: %s", encoded);
+    // write encoded string to output.txt
+    fp = fopen("output.txt", "w");
+
+    if (fp == NULL) {
+        printf("Could not create output.txt!\n");
+        return 1;
+    }
+
+    fprintf(fp, "Original text: %s\n", input);
+    fprintf(fp, "Encoded string: %s\n", encoded);
+
     fclose(fp);
 
     //summary
